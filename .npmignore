@@ -1,0 +1,13 @@
+test/
+ts/
+node_modules
+.npmrc
+.github
+.commitlintrc.js
+.DS_Store
+.eslintrc
+.commitlintrc.js
+jest.config.js
+*.md
+.travis.yml
+*.tgz

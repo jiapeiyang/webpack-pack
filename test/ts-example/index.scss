@@ -1,0 +1,36 @@
+@use './base.scss';
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+:global {
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+}
+.wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('./assets/test-jpg.jpg');
+  i {
+    display: block;
+  }
+  .color {
+    color: red;
+    font-size: 18px;
+  }
+  .icon {
+    @extend .base;
+    width: 30px;
+    height: 30px;
+    background: url('./assets/test-png.png');
+  }
+  .icon-svg {
+    width: 188px;
+    height: 58px;
+    background: url('./assets/test-svg.svg');
+  }
+}
